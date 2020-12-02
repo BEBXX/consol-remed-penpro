@@ -25,11 +25,12 @@ print(max)
 
 
 # versi lebih pendek
-# total = 0
-# out = []
-# for i in range (int(input())):
-#     a, b = map(int, input().split())
-#     total = total - a + b
-#     out.append(total)
 
-# print(max(out))
+total = 0
+out = []
+for i in range (int(input())):
+    a, b = map(int, input().split())
+    total = total - a + b
+    out.append(total)
+
+print(max(out))
